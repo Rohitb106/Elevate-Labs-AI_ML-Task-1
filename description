@@ -1,0 +1,32 @@
+First Process (Short Summary)
+Import Dataset:
+
+Load the data into a DataFrame (e.g., using pandas).
+
+Explore Basic Info:
+
+Check number of rows/columns (df.shape).
+
+Check column names, data types, non-null values (df.info()).
+
+Preview first few rows (df.head()).
+
+Handle Missing Values:
+
+Fill missing numeric values with mean or median.
+
+Fill missing categorical values with mode or use imputation.
+
+Encode Categorical Features:
+
+Use Label Encoding or One-Hot Encoding to convert text to numbers.
+
+Normalize/Standardize Numeric Features:
+
+Scale features using MinMaxScaler or StandardScaler.
+
+Visualize and Remove Outliers:
+
+Use boxplots to detect outliers.
+
+Remove rows where values are outside normal range (using IQR method or Z-score)
